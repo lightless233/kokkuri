@@ -1,2 +1,2 @@
-# kokkuri
-Kokkuri
+# Kokkuri
+Just a demo.

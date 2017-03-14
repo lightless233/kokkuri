@@ -21,9 +21,9 @@ The Kokkuri Server.
     input(type="imtcp" port="10514")
     ```
     In my project, the port is set to 10514 and you can replace it with your own lucky number.
-2. Add a new file `/etc/rsyslog.d/ssh-auth.conf`
+2. Add a new file `/etc/rsyslog.d/kokkuri-server.conf`
     ```
-    local3.* /path/to/rsyslog/received/log.log
+    local6.* /path/to/rsyslog/received/log.log
     ```
-    The `local3` must be same with the agent's facility name. Change the path to the real path on your disk. The agent's
+    The `local6` must be same with the agent's facility name. Change the path to the real path on your disk. The agent's
     log will save to this log file.

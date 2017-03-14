@@ -17,14 +17,11 @@ The agent in the server.
     ```
     e.g.
     ```
-    SyslogFacility ssh-agent
+    SyslogFacility local6
     ```
 
-1.2 Add a new file `/etc/rsyslog.d/ssh-auth.conf` to send ssh log to rsyslog's server.
-    ```
-    [Facility_name].* @@rsync_server:port
-    ```
+1.2 Add a new file `/etc/rsyslog.d/kokkuri-agent.conf` to send ssh log to rsyslog's server.
     e.g.
     ```
-    ssh-agent.* @@192.168.198.128:10514
+    :syslogtag,contains, "sshd" @@192.168.198.130:10514
     ```

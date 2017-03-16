@@ -2,10 +2,10 @@
 # -*- coding:utf-8 -*-
 
 """
-    Kokkuri Server
-    ~~~~~~~~~~~~~~
+    Kokkuri Server Tests
+    ~~~~~~~~~~~~~~~~~~~~
 
-    The Server's Entry Point.
+    Tests file.
 
     :author:    lightless <root@lightless.me>
     :homepage:  https://github.com/LiGhT1EsS/kokkuri
@@ -13,4 +13,11 @@
     :copyright: Copyright (c) 2017 lightless. All rights reserved
 """
 
-from config import mmap
+
+from utils.watch_log import WatchLogFile
+
+wlf = WatchLogFile()
+
+wlf.start()
+wlf.join()
+

@@ -2,10 +2,10 @@
 # -*- coding:utf-8 -*-
 
 """
-    Kokkuri Server
-    ~~~~~~~~~~~~~~
+    config.server_config
+    ~~~~~~~~~~~~~~~~~~~~
 
-    The Server's Entry Point.
+    The Server's Config File.
 
     :author:    lightless <root@lightless.me>
     :homepage:  https://github.com/LiGhT1EsS/kokkuri
@@ -13,4 +13,5 @@
     :copyright: Copyright (c) 2017 lightless. All rights reserved
 """
 
-from config import mmap
+LOGFILE_FORMAT = "/home/Kokkuri/rsyslog/logfile_%Y%m%d.log"
+

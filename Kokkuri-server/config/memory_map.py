@@ -2,10 +2,10 @@
 # -*- coding:utf-8 -*-
 
 """
-    Kokkuri Server
-    ~~~~~~~~~~~~~~
+    config.memory_map
+    ~~~~~~~~~~~~~~~~~
 
-    The Server's Entry Point.
+    Save dynamic data in runtime.
 
     :author:    lightless <root@lightless.me>
     :homepage:  https://github.com/LiGhT1EsS/kokkuri
@@ -13,4 +13,11 @@
     :copyright: Copyright (c) 2017 lightless. All rights reserved
 """
 
-from config import mmap
+
+class MemoryMap(object):
+
+    def __init__(self):
+        super(MemoryMap, self).__init__()
+
+
+mmap = MemoryMap()

@@ -2,10 +2,10 @@
 # -*- coding:utf-8 -*-
 
 """
-    Kokkuri Server
+    utils.__init__
     ~~~~~~~~~~~~~~
 
-    The Server's Entry Point.
+    The Server's Utils Modules.
 
     :author:    lightless <root@lightless.me>
     :homepage:  https://github.com/LiGhT1EsS/kokkuri
@@ -13,4 +13,3 @@
     :copyright: Copyright (c) 2017 lightless. All rights reserved
 """
 
-from config import mmap

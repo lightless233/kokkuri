@@ -2,10 +2,10 @@
 # -*- coding:utf-8 -*-
 
 """
-    Kokkuri Server
-    ~~~~~~~~~~~~~~
+    config.__init__
+    ~~~~~~~~~~~~~~~
 
-    The Server's Entry Point.
+    The Server's Config Modules.
 
     :author:    lightless <root@lightless.me>
     :homepage:  https://github.com/LiGhT1EsS/kokkuri
@@ -13,4 +13,5 @@
     :copyright: Copyright (c) 2017 lightless. All rights reserved
 """
 
-from config import mmap
+from config.memory_map import mmap
+from config import server_config as settings

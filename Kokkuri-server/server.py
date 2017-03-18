@@ -13,4 +13,10 @@
     :copyright: Copyright (c) 2017 lightless. All rights reserved
 """
 
-from config import mmap
+
+def main():
+
+
+
+if __name__ == '__main__':
+    main()

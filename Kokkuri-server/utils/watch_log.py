@@ -17,7 +17,8 @@ import datetime
 import threading
 import time
 
-from config import settings
+from config import settings, mmap
+from utils import logger
 
 
 class WatchLogFile(threading.Thread):
@@ -69,8 +70,10 @@ class WatchLogFile(threading.Thread):
         while not self._exit_flag:
             line = process.stdout.readline().strip()
             if line:
-                # todo: do something...
-                print(line)
+                # 将读取到的日志扔到队列中
+                # ssh_parser会解析日志
+                logger.debug("Put a task to `sshd_raw_log_queue`, length: {0}".format(len(line)))
+                mmap.sshd_raw_log_queue.put(line)
             else:
                 # 没有读取到内容
                 time.sleep(1)

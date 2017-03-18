@@ -13,3 +13,4 @@
     :copyright: Copyright (c) 2017 lightless. All rights reserved
 """
 
+from utils.log_helper import logger

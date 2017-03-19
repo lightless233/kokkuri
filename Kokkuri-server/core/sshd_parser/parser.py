@@ -62,8 +62,6 @@ class SSHDParser(object):
             raw_log_line = raw_log_line.decode()
 
             log_head, log_message = raw_log_line.split(": ", maxsplit=1)
-            logger.debug(log_head)
-            logger.debug(log_message)
 
             log_head = log_head.strip()
             log_message = log_message.strip()

@@ -13,8 +13,6 @@
     :copyright: Copyright (c) 2017 lightless. All rights reserved
 """
 
-import datetime
-
 import sqlalchemy
 from sqlalchemy import create_engine, func, Column, String, DateTime
 from sqlalchemy.orm import sessionmaker
@@ -46,11 +44,47 @@ class KokkuriSSHEvent(ModelBase):
     updated_time = Column(DateTime, onupdate=func.now(), server_onupdate=func.now(), server_default=func.now())
     is_deleted = Column(INTEGER(2, unsigned=True), default=0, server_default="0")
 
+    def delete(self):
+        self.is_deleted = 1
+
     def __init__(self, user, source_ip, target_host, result):
         self.user = user
         self.source_ip = source_ip
         self.target_host = target_host
         self.result = result
+
+
+class KokkuriSSHPot(ModelBase):
+    """
+    记录SSH的蜜罐以及状态
+    """
+
+    __tablename__ = "kokkuri_ssh_pot"
+
+    id = Column(INTEGER(unsigned=True), primary_key=True, autoincrement=True)
+    container_name = Column(String(length=64))
+    container_id = Column(String(length=64), index=True)
+    honeypot_ip = Column(String(16), index=True)
+    attacker_ip = Column(String(length=16), index=True)
+
+    # 0: 关闭; 1: 开启
+    status = Column(INTEGER(2, unsigned=True), default=1)
+    ssh_port = Column(String(length=6))
+
+    created_time = Column(DateTime, server_default=func.now(), default=func.now(), index=True)
+    updated_time = Column(DateTime, onupdate=func.now(), server_onupdate=func.now(), server_default=func.now())
+    is_deleted = Column(INTEGER(2, unsigned=True), default=0, server_default="0")
+
+    def delete(self):
+        self.is_deleted = 1
+
+    def __init__(self, container_name, container_id, pot_ip, attacker_ip, ssh_port, status=1):
+        self.container_name = container_name
+        self.container_id = container_id
+        self.honeypot_ip = pot_ip
+        self.attacker_ip = attacker_ip
+        self.status = status
+        self.ssh_port = ssh_port
 
 if __name__ == '__main__':
     ModelBase.metadata.create_all(engine)

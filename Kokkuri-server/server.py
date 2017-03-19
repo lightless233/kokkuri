@@ -13,9 +13,18 @@
     :copyright: Copyright (c) 2017 lightless. All rights reserved
 """
 
+from utils.watch_log import WatchLogFile
+from core.sshd_parser import SSHDParser
+from config import mmap
+
 
 def main():
 
+    sshd_parser = SSHDParser()
+
+    wlf = WatchLogFile(mmap.sshd_raw_log_queue)
+    wlf.start()
+    wlf.join()
 
 
 if __name__ == '__main__':

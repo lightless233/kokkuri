@@ -16,16 +16,17 @@
 import datetime
 
 import sqlalchemy
-from sqlalchemy import create_engine, Column, String, DateTime
-from sqlalchemy import func
+from sqlalchemy import create_engine, func, Column, String, DateTime
+from sqlalchemy.orm import sessionmaker
 from sqlalchemy.dialects.mysql import INTEGER
 from sqlalchemy.ext.declarative import declarative_base
 
 from utils import logger
 
 logger.debug("SQLAlchemy Version: {0}".format(sqlalchemy.__version__))
-engine = create_engine('mysql+mysqldb://root:123456@192.168.198.130/kokkuri?charset=utf8mb4', encoding='utf8')
+engine = create_engine('mysql+mysqldb://root:123456@127.0.0.1/kokkuri?charset=utf8mb4', encoding='utf8')
 ModelBase = declarative_base()
+Session = sessionmaker(bind=engine)
 
 
 class KokkuriSSHEvent(ModelBase):
@@ -45,6 +46,11 @@ class KokkuriSSHEvent(ModelBase):
     updated_time = Column(DateTime, onupdate=func.now(), server_onupdate=func.now(), server_default=func.now())
     is_deleted = Column(INTEGER(2, unsigned=True), default=0, server_default="0")
 
+    def __init__(self, user, source_ip, target_host, result):
+        self.user = user
+        self.source_ip = source_ip
+        self.target_host = target_host
+        self.result = result
 
 if __name__ == '__main__':
     ModelBase.metadata.create_all(engine)

@@ -1,4 +1,7 @@
 appdirs==1.4.3
+colorama==0.3.7
+colorlog==2.10.0
 packaging==16.8
 pyparsing==2.2.0
 six==1.10.0
+SQLAlchemy==1.1.6

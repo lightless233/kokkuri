@@ -2,10 +2,10 @@
 # -*- coding:utf-8 -*-
 
 """
-    Kokkuri Agent
-    ~~~~~~~~~~~~~
+    config.memory_map
+    ~~~~~~~~~~~~~~~~~
 
-    The Agent's Entry Point.
+    Save dynamic data in runtime.
 
     :author:    lightless <root@lightless.me>
     :homepage:  https://github.com/LiGhT1EsS/kokkuri
@@ -13,19 +13,12 @@
     :copyright: Copyright (c) 2017 lightless. All rights reserved
 """
 
-import queue
+
+class MemoryMap(object):
+
+    def __init__(self):
+        super(MemoryMap, self).__init__()
 
 
-from config import mmap
+mmap = MemoryMap()
 
-
-def main():
-    """
-    简单的把demo跑起来
-    :return:
-    """
-    mmap.policy_queue = queue.Queue()
-
-
-if __name__ == '__main__':
-    main()

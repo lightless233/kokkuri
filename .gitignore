@@ -74,3 +74,5 @@ ENV/
 .spyderproject
 .ropeproject
 .idea/
+Kokkuri-server/logs
+

@@ -1,0 +1,115 @@
+[DEBUG] [MainThread] [2017-03-19 15:40:03] [models.py:26] SQLAlchemy Version: 1.1.5
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:40:03] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 63
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:40:03] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 71
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:40:03] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 66
+[DEBUG] [MainThread] [2017-03-19 15:40:49] [models.py:26] SQLAlchemy Version: 1.1.5
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:40:49] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 63
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:40:49] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 71
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:40:49] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 66
+[DEBUG] [MainThread] [2017-03-19 15:41:57] [models.py:26] SQLAlchemy Version: 1.1.5
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:41:57] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 63
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:41:57] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 71
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:41:57] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 66
+[DEBUG] [MainThread] [2017-03-19 15:42:25] [models.py:26] SQLAlchemy Version: 1.1.5
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:42:25] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 63
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:42:25] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 71
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:42:25] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 66
+[DEBUG] [MainThread] [2017-03-19 15:43:26] [models.py:26] SQLAlchemy Version: 1.1.5
+[DEBUG] [SSHDParserThread] [2017-03-19 15:43:26] [parser.py:51] SSHD Parser start!
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:43:26] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 63
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:43:26] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 71
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:43:26] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 66
+[DEBUG] [MainThread] [2017-03-19 15:43:50] [models.py:26] SQLAlchemy Version: 1.1.5
+[DEBUG] [SSHDParserThread] [2017-03-19 15:43:50] [parser.py:51] SSHD Parser start!
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:43:50] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 63
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:43:50] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 71
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:43:50] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 66
+[DEBUG] [SSHDParserThread] [2017-03-19 15:43:52] [parser.py:65] Mar 19 15:24:53 devel sshd[66973]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:43:52] [parser.py:66] Received SIGHUP; restarting.
+[DEBUG] [SSHDParserThread] [2017-03-19 15:43:52] [parser.py:65] Mar 19 15:24:53 devel sshd[66973]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:43:52] [parser.py:66] Server listening on 0.0.0.0 port 22.
+[DEBUG] [SSHDParserThread] [2017-03-19 15:43:52] [parser.py:65] Mar 19 15:24:53 devel sshd[66973]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:43:52] [parser.py:66] Server listening on :: port 22.
+[DEBUG] [MainThread] [2017-03-19 15:44:22] [models.py:26] SQLAlchemy Version: 1.1.5
+[DEBUG] [SSHDParserThread] [2017-03-19 15:44:22] [parser.py:51] SSHD Parser start!
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:44:22] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 63
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:44:22] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 71
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:44:22] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 66
+[DEBUG] [SSHDParserThread] [2017-03-19 15:44:24] [parser.py:65] Mar 19 15:24:53 devel sshd[66973]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:44:24] [parser.py:66] Received SIGHUP; restarting.
+[DEBUG] [SSHDParserThread] [2017-03-19 15:44:24] [parser.py:65] Mar 19 15:24:53 devel sshd[66973]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:44:24] [parser.py:66] Server listening on 0.0.0.0 port 22.
+[DEBUG] [SSHDParserThread] [2017-03-19 15:44:24] [parser.py:65] Mar 19 15:24:53 devel sshd[66973]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:44:24] [parser.py:66] Server listening on :: port 22.
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:45:04] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 96
+[DEBUG] [SSHDParserThread] [2017-03-19 15:45:06] [parser.py:65] Mar 19 15:45:04 devel sshd[70489]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:45:06] [parser.py:66] Accepted password for root from 192.168.198.1 port 21484 ssh2
+[DEBUG] [MainThread] [2017-03-19 15:46:30] [models.py:26] SQLAlchemy Version: 1.1.5
+[DEBUG] [SSHDParserThread] [2017-03-19 15:46:30] [parser.py:51] SSHD Parser start!
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:46:30] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 63
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:46:30] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 71
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:46:30] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 66
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:46:30] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 96
+[DEBUG] [SSHDParserThread] [2017-03-19 15:46:32] [parser.py:65] Mar 19 15:24:53 devel sshd[66973]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:46:32] [parser.py:66] Received SIGHUP; restarting.
+[DEBUG] [SSHDParserThread] [2017-03-19 15:46:32] [parser.py:65] Mar 19 15:24:53 devel sshd[66973]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:46:32] [parser.py:66] Server listening on 0.0.0.0 port 22.
+[DEBUG] [SSHDParserThread] [2017-03-19 15:46:32] [parser.py:65] Mar 19 15:24:53 devel sshd[66973]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:46:32] [parser.py:66] Server listening on :: port 22.
+[DEBUG] [SSHDParserThread] [2017-03-19 15:46:32] [parser.py:65] Mar 19 15:45:04 devel sshd[70489]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:46:32] [parser.py:66] Accepted password for root from 192.168.198.1 port 21484 ssh2
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:46:45] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 90
+[DEBUG] [SSHDParserThread] [2017-03-19 15:46:46] [parser.py:65] Mar 19 15:46:45 devel sshd[70601]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:46:46] [parser.py:66] Failed password for root from 127.0.0.1 port 34176 ssh2
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:47:07] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 119
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:47:07] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 86
+[DEBUG] [SSHDParserThread] [2017-03-19 15:47:08] [parser.py:65] Mar 19 15:47:07 devel sshd[70601]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:47:08] [parser.py:66] message repeated 2 times: [ Failed password for root from 127.0.0.1 port 34176 ssh2]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:47:08] [parser.py:65] Mar 19 15:47:07 devel sshd[70601]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:47:08] [parser.py:66] Connection closed by 127.0.0.1 port 34176 [preauth]
+[DEBUG] [MainThread] [2017-03-19 15:49:22] [models.py:26] SQLAlchemy Version: 1.1.5
+[DEBUG] [SSHDParserThread] [2017-03-19 15:49:22] [parser.py:51] SSHD Parser start!
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:49:22] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 63
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:49:22] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 71
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:49:22] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 66
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:49:22] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 96
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:49:22] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 90
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:49:22] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 119
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 15:49:22] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 86
+[DEBUG] [SSHDParserThread] [2017-03-19 15:49:24] [parser.py:65] Mar 19 15:24:53 devel sshd[66973]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:49:24] [parser.py:66] Received SIGHUP; restarting.
+[DEBUG] [SSHDParserThread] [2017-03-19 15:49:24] [parser.py:65] Mar 19 15:24:53 devel sshd[66973]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:49:24] [parser.py:66] Server listening on 0.0.0.0 port 22.
+[DEBUG] [SSHDParserThread] [2017-03-19 15:49:24] [parser.py:65] Mar 19 15:24:53 devel sshd[66973]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:49:24] [parser.py:66] Server listening on :: port 22.
+[DEBUG] [SSHDParserThread] [2017-03-19 15:49:24] [parser.py:65] Mar 19 15:45:04 devel sshd[70489]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:49:24] [parser.py:66] Accepted password for root from 192.168.198.1 port 21484 ssh2
+[DEBUG] [SSHDParserThread] [2017-03-19 15:49:24] [parser.py:65] Mar 19 15:46:45 devel sshd[70601]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:49:24] [parser.py:66] Failed password for root from 127.0.0.1 port 34176 ssh2
+[DEBUG] [SSHDParserThread] [2017-03-19 15:49:24] [parser.py:65] Mar 19 15:47:07 devel sshd[70601]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:49:24] [parser.py:66] message repeated 2 times: [ Failed password for root from 127.0.0.1 port 34176 ssh2]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:49:24] [parser.py:65] Mar 19 15:47:07 devel sshd[70601]
+[DEBUG] [SSHDParserThread] [2017-03-19 15:49:24] [parser.py:66] Connection closed by 127.0.0.1 port 34176 [preauth]
+[DEBUG] [MainThread] [2017-03-19 16:02:53] [models.py:26] SQLAlchemy Version: 1.1.5
+[DEBUG] [SSHDParserThread] [2017-03-19 16:02:53] [parser.py:51] SSHD Parser start!
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 16:02:53] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 63
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 16:02:53] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 71
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 16:02:53] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 66
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 16:02:53] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 96
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 16:02:53] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 90
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 16:02:53] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 119
+[DEBUG] [20170319.log_watch_thread] [2017-03-19 16:02:53] [watch_log.py:75] Put a task to `sshd_raw_log_queue`, length: 86
+[DEBUG] [SSHDParserThread] [2017-03-19 16:02:55] [parser.py:65] Mar 19 15:24:53 devel sshd[66973]
+[DEBUG] [SSHDParserThread] [2017-03-19 16:02:55] [parser.py:66] Received SIGHUP; restarting.
+[DEBUG] [SSHDParserThread] [2017-03-19 16:02:55] [parser.py:65] Mar 19 15:24:53 devel sshd[66973]
+[DEBUG] [SSHDParserThread] [2017-03-19 16:02:55] [parser.py:66] Server listening on 0.0.0.0 port 22.
+[DEBUG] [SSHDParserThread] [2017-03-19 16:02:55] [parser.py:65] Mar 19 15:24:53 devel sshd[66973]
+[DEBUG] [SSHDParserThread] [2017-03-19 16:02:55] [parser.py:66] Server listening on :: port 22.
+[DEBUG] [SSHDParserThread] [2017-03-19 16:02:55] [parser.py:65] Mar 19 15:45:04 devel sshd[70489]
+[DEBUG] [SSHDParserThread] [2017-03-19 16:02:55] [parser.py:66] Accepted password for root from 192.168.198.1 port 21484 ssh2
+[DEBUG] [SSHDParserThread] [2017-03-19 16:02:55] [parser.py:65] Mar 19 15:46:45 devel sshd[70601]
+[DEBUG] [SSHDParserThread] [2017-03-19 16:02:55] [parser.py:66] Failed password for root from 127.0.0.1 port 34176 ssh2
+[DEBUG] [SSHDParserThread] [2017-03-19 16:02:55] [parser.py:65] Mar 19 15:47:07 devel sshd[70601]
+[DEBUG] [SSHDParserThread] [2017-03-19 16:02:55] [parser.py:66] message repeated 2 times: [ Failed password for root from 127.0.0.1 port 34176 ssh2]
+[DEBUG] [SSHDParserThread] [2017-03-19 16:02:55] [parser.py:65] Mar 19 15:47:07 devel sshd[70601]
+[DEBUG] [SSHDParserThread] [2017-03-19 16:02:55] [parser.py:66] Connection closed by 127.0.0.1 port 34176 [preauth]

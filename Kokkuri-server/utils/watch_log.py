@@ -62,8 +62,9 @@ class WatchLogFile(threading.Thread):
         self.today = datetime.date.today()
 
     def run(self):
+        logger.info("Starting `tail -f` command.")
         process = subprocess.Popen(
-            "tail -f {0}".format(self.today.strftime(self.log_file_template)),
+            "tail -f {0} -n 0".format(self.today.strftime(self.log_file_template)),
             stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True
         )
         self.pid = process.pid

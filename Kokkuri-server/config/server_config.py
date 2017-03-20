@@ -19,3 +19,6 @@ LOGFILE_FORMAT = "/home/Kokkuri/rsyslog/logfile_%Y%m%d.log"
 # docker base url
 DOCKER_BASE_URL = "unix://var/run/docker.sock"
 
+# HoneyPot's IP
+HONEYPOT_IP = "192.168.198.130"
+

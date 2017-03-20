@@ -15,12 +15,20 @@
 
 from utils.watch_log import WatchLogFile
 from core.sshd_parser import SSHDParser
+from core.sshd_guard.guard import SSHDGuard
+from utils.docker_pot import DockerPot
 from config import mmap
 
 
 def main():
+    """
+    先简单的临时把代码跑起来
+    :return:
+    """
 
-    sshd_parser = SSHDParser()
+    mmap.docker_pot = DockerPot()
+    mmap.sshd_parser = SSHDParser()
+    mmap.sshd_guard = SSHDGuard()
 
     wlf = WatchLogFile(mmap.sshd_raw_log_queue)
     wlf.start()

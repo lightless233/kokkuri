@@ -48,7 +48,7 @@ class SSHDParser(object):
         b'Mar 16 22:18:59 devel sshd[68521]: Connection closed by 127.0.0.1 port 34172 [preauth]'
         :return:
         """
-        logger.debug("SSHD Parser start!")
+        logger.info("SSHD Parser start!")
         while not self._exit_flag:
 
             # 队里为空的时候则跳过
@@ -57,6 +57,7 @@ class SSHDParser(object):
                 continue
 
             raw_log_line = self.raw_log_queue.get()
+            logger.debug("SSHD Parser got a message, length: {0}".format(len(raw_log_line)))
 
             # 转成unicode
             raw_log_line = raw_log_line.decode()

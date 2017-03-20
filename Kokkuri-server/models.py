@@ -21,7 +21,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 from utils import logger
 
-logger.debug("SQLAlchemy Version: {0}".format(sqlalchemy.__version__))
+logger.info("SQLAlchemy Version: {0}".format(sqlalchemy.__version__))
 engine = create_engine('mysql+mysqldb://root:123456@127.0.0.1/kokkuri?charset=utf8mb4', encoding='utf8')
 ModelBase = declarative_base()
 Session = sessionmaker(bind=engine)
@@ -52,6 +52,12 @@ class KokkuriSSHEvent(ModelBase):
         self.source_ip = source_ip
         self.target_host = target_host
         self.result = result
+
+    def __str__(self):
+        return "<KokkuriSSHEvent {0}>".format(self.created_time)
+
+    def __repr__(self):
+        return "<KokkuriSSHEvent {0}>".format(self.created_time)
 
 
 class KokkuriSSHPot(ModelBase):
